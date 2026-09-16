@@ -17,13 +17,20 @@ print("my name is", name, "and I am ",age, "years old")'''
 # print(a<b)
 # print(a!=b)
 
-# a-=5
+# a-=55
+'
 # print(a)
 # b+=5
 # print(b)
 
 
-ans1 = int(5+10.0)
-ans2 = 5+10.0
-print(ans1, type(ans1))
-print(ans2, type(ans2))
+# ans1 = int(5+10.0)
+# ans2 = 5+10.0
+# print(ans1, type(ans1))
+# print(ans2, type(ans2))
+
+
+a = int(input("enter a number: "))
+b = int(input("enter another number "))
+sum = a+b
+print(sum)
