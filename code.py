@@ -18,7 +18,6 @@ print("my name is", name, "and I am ",age, "years old")'''
 # print(a!=b)
 
 # a-=55
-'
 # print(a)
 # b+=5
 # print(b)
@@ -30,7 +29,16 @@ print("my name is", name, "and I am ",age, "years old")'''
 # print(ans2, type(ans2))
 
 
-a = int(input("enter a number: "))
-b = int(input("enter another number "))
-sum = a+b
-print(sum)
+# a = int(input("enter a number: "))
+# b = int(input("enter another number "))
+# sum = a+b
+# print(sum)
+
+color = input("Enter color: ")
+
+if color == "red":
+    print ("stop")
+elif color == "yellow":
+    print("wait")
+else :
+    print("go")
