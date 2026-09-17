@@ -34,11 +34,25 @@ print("my name is", name, "and I am ",age, "years old")'''
 # sum = a+b
 # print(sum)
 
-color = input("Enter color: ")
+# color = input("Enter color: ")
 
-if color == "red":
-    print ("stop")
-elif color == "yellow":
-    print("wait")
-else :
-    print("go")
+# if color == "red":
+#     print ("stop")
+# elif color == "yellow":
+#     print("wait")
+# else :
+#     print("go")
+
+color = input("Enter color: ")
+match color:
+    case "red":
+        print ("stop")
+    case "yellow":
+        print ("wait")
+    case "green":
+        print ("go")
+    case "blue":
+        print ("ok")    
+    case _:
+        print("invalid")
+        
