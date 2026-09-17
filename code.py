@@ -43,16 +43,33 @@ print("my name is", name, "and I am ",age, "years old")'''
 # else :
 #     print("go")
 
-color = input("Enter color: ")
-match color:
-    case "red":
-        print ("stop")
-    case "yellow":
-        print ("wait")
-    case "green":
-        print ("go")
-    case "blue":
-        print ("ok")    
-    case _:
-        print("invalid")
+# color = input("Enter color: ")
+# match color:
+#     case "red":
+#         print ("stop")
+#     case "yellow":
+#         print ("wait")
+#     case "green":
+#         print ("go")
+#     case "blue":
+#         print ("ok")    
+#     case _:
+#         print("invalid")
+
+#while loop
+# cnt = 1
+# while (cnt<=5):
+#     print ("H W")
+#     cnt+=1
+
+#for loop
+# string = "hello"
+# for var in string:
+#     print(var)    
+
+#range
+for i in range(1,10):
+    print(i)
+
+
         
