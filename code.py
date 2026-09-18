@@ -76,9 +76,21 @@ print("my name is", name, "and I am ",age, "years old")'''
 # word = "python"
 # print (len(word))
 
-word1 = ("I love")
-word2 = ("python")
-print (word1 + " " + word2)
+# word1 = ("I love")
+# word2 = ("python")
+# print (word1 + " " + word2)
+
+
+
+#formatting
+#1)normal formatting
+a=5
+b=10
+sum=a+b
+print("sum of a and b is: {}".format(sum))
+
+#2)f-string formatting
+print(f"sum of {a} and {b} is {sum}")
 
 
         
