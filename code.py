@@ -68,8 +68,17 @@ print("my name is", name, "and I am ",age, "years old")'''
 #     print(var)    
 
 #range
-for i in range(1,10):
-    print(i)
+# for i in range(1,10):
+#     print(i)
+
+
+#string
+# word = "python"
+# print (len(word))
+
+word1 = ("I love")
+word2 = ("python")
+print (word1 + " " + word2)
 
 
         
