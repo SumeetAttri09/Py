@@ -104,21 +104,21 @@ print("my name is", name, "and I am ",age, "years old")'''
 
 
 #tuple
-tup = (10,20,30,40.5,"ab")
-print(len(tup))
-print(tup[0:2])
-print(tup.index(20))
-print(tup.count(20))
+# tup = (10,20,30,40.5,"ab")
+# print(len(tup))
+# print(tup[0:2])
+# print(tup.index(20))
+# print(tup.count(20))
 
 
 
 #Dicitionary
-info = {
-  "name": "aman",
-  "class": "8th",
-  "cgpa": "8.4"
-}
-print(info.keys())
+# info = {
+#   "name": "aman",
+#   "class": "8th",
+#   "cgpa": "8.4"
+# }
+# print(info.keys())
 #d.keys()
 #d.values()
 #d.items()
