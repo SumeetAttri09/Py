@@ -84,13 +84,27 @@ print("my name is", name, "and I am ",age, "years old")'''
 
 #formatting
 #1)normal formatting
-a=5
-b=10
-sum=a+b
-print("sum of a and b is: {}".format(sum))
+# a=5
+# b=10
+# sum=a+b
+# print("sum of a and b is: {}".format(sum))
 
 #2)f-string formatting
-print(f"sum of {a} and {b} is {sum}")
+#print(f"sum of {a} and {b} is {sum}")
 
 
+
+#list
+#marks = [10,20,40,50]
+#print(len(marks))
+#print(marks[1])
+# marks.append(70)
+# print(marks)
+
+
+
+#tuple
+tup = (10,20,30,40.5,"ab")
+print(len(tup))
+print(tup[0:2])
         
