@@ -129,14 +129,27 @@ print("my name is", name, "and I am ",age, "years old")'''
 
 
 #sets(mutable): collection of unique elements(immutable)
-s = {1,2,3,4,5}
-print(type(s))
-print(len(s))
-print(s.add(6))
-print(s.remove(5))
-print(s)
+# s = {1,2,3,4,5}
+# print(type(s))
+# print(len(s))
+# print(s.add(6))
+# print(s.remove(5))
+# print(s)
 
-empty_set = set()
-print(type(empty_set))
+# empty_set = set()
+# print(type(empty_set))
 #s.union(set2)
 #s.intersection(set2)
+
+
+
+#constructors
+class Student:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+stu1 = Student("Sumeet", 21)
+stu2 = Student("Aman", 23)
+
+print(stu1.name, stu1.age)
