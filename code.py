@@ -107,4 +107,36 @@ print("my name is", name, "and I am ",age, "years old")'''
 tup = (10,20,30,40.5,"ab")
 print(len(tup))
 print(tup[0:2])
-        
+print(tup.index(20))
+print(tup.count(20))
+
+
+
+#Dicitionary
+info = {
+  "name": "aman",
+  "class": "8th",
+  "cgpa": "8.4"
+}
+print(info.keys())
+#d.keys()
+#d.values()
+#d.items()
+#d.get(val)
+#d.update(new_item)
+
+
+
+
+#sets(mutable): collection of unique elements(immutable)
+s = {1,2,3,4,5}
+print(type(s))
+print(len(s))
+print(s.add(6))
+print(s.remove(5))
+print(s)
+
+empty_set = set()
+print(type(empty_set))
+#s.union(set2)
+#s.intersection(set2)
